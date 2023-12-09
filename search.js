@@ -1,12 +1,10 @@
 // JavaScript code 
 hall = {}
 table = {}
-hall{"tommy":1,"timmy":2}
+hall{"tommy":1,"timmy":2,"dad":3,"mom":3}
 table["tommy"] = "1"
 table["timmy"] = "2"
-hall["dad"] = "3"
 table["dad"] = "3"
-hall["mom"] = "3"
 table["mom"] = "3"
 function handle(e){
     if(e.keyCode === 13){
