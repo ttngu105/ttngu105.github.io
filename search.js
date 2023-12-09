@@ -1,12 +1,14 @@
 // JavaScript code 
 hall = {}
 table = {}
-hall["tommy"] = "hall 1"
-table["tommy"] = "table 1"
-hall["timmy"] = "hall 2"
-table["timmy"] = "table 2"
-hall["john"] = "hall 3"
-table["john"] = "table 3"
+hall["tommy"] = "1"
+table["tommy"] = "1"
+hall["timmy"] = "2"
+table["timmy"] = "2"
+hall["dad"] = "3"
+table["dad"] = "3"
+hall["mom"] = "3"
+table["mom"] = "3"
 function handle(e){
     if(e.keyCode === 13){
         e.preventDefault(); // Ensure it is only this code that runs
