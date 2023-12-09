@@ -1,9 +1,8 @@
 // JavaScript code 
 hall = {}
 table = {}
-hall["tommy"] = "1"
+hall{"tommy":1,"timmy":2}
 table["tommy"] = "1"
-hall["timmy"] = "2"
 table["timmy"] = "2"
 hall["dad"] = "3"
 table["dad"] = "3"
