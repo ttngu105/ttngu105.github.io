@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+    <script src="./search.js"></script> 
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,5 +10,15 @@
 </head>
 <body>
     <div class="topnav">
-    <input type="text" placeholder="Search..">
-  </div></body>
+    <input id = "name" type="text" placeholder="Search.." onkeypress="handle(event)" >
+    
+    </div>
+  <div class="hall">
+    <p>Hall</p>
+    <a id="hallnumber">hello</a>
+  </div>
+  <div class="table">
+    <p>Table</p>
+    <a id = "tablenumber">hello1</a>
+  </div>
+</body>
