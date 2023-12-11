@@ -1,7 +1,7 @@
 // JavaScript code 
 hall = {}
 table = {}
-hall{"tommy":1}
+hall = {"tommy":1,"timmy":2,"dad":3,"mom":3}
 table["tommy"] = "1"
 table["timmy"] = "2"
 table["dad"] = "3"
