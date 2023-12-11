@@ -1,11 +1,12 @@
 // JavaScript code 
-hall = {}
-table = {}
-hall = {"tommy":1,"timmy":2,"dad":3,"mom":3}
-table["tommy"] = "1"
+/*hall = {}
+table = {}*/
+hall={"tommy":'1',"timmy":'2',"dad":'3',"mom":'3'};
+table={"tommy":'1',"timmy":'2',"dad":'3',"mom":'3'};
+/*table["tommy"] = "1"
 table["timmy"] = "2"
 table["dad"] = "3"
-table["mom"] = "3"
+table["mom"] = "3"*/
 function handle(e){
     if(e.keyCode === 13){
         e.preventDefault(); // Ensure it is only this code that runs
