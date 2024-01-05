@@ -8,7 +8,7 @@ table["timmy"] = "2"
 table["dad"] = "3"
 table["mom"] = "3"*/
 function handle(e){
-    if(e.keyCode === 13){
+    if(e.keyCode !== null){
         e.preventDefault(); // Ensure it is only this code that runs
         let input = document.getElementById('name').value 
         input=input.toLowerCase()
