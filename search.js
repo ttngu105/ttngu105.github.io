@@ -22,10 +22,10 @@ function handle(e){
     }*/
 }
 function myFunction() {
- if (document.getElementById("demo").value == t){
-  document.getElementById("demo").style.backgroundColor = "red";}
+ if (document.getElementById("name").value == t){
+  document.getElementById("name").style.backgroundColor = "red";}
   else{
-  document.getElementById("demo").style.backgroundColor = "blue";}
+  document.getElementById("name").style.backgroundColor = "blue";}
   }
 }
 function search_person() { 
