@@ -8,9 +8,10 @@ table["timmy"] = "2"
 table["dad"] = "3"
 table["mom"] = "3"*/
 function handle(e){
-    if(e.keyCode !== null){
+    document.getElementById("name").onkeydown = function() {myFunction()};
+    /*if(e.keyCode !== null){
         e.preventDefault(); // Ensure it is only this code that runs
-        let input = document.getElementById('name').value 
+        let input = document.getElementById('name').onkeydown
         input=input.toLowerCase()
        // hall[input]
        const tablenum = document.getElementById('tablenumber');
@@ -18,7 +19,14 @@ function handle(e){
        tablenum.innerHTML = table[input];
        hallnum.innerHTML = hall[input];
         //alert(hall[input] +" & "+table[input]);
-    }
+    }*/
+}
+function myFunction() {
+ if (document.getElementById("demo").value == t){
+  document.getElementById("demo").style.backgroundColor = "red";}
+  else{
+  document.getElementById("demo").style.backgroundColor = "blue";}
+  }
 }
 function search_person() { 
     let input = document.getElementById('topnav').value 
