@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <script src="./search.js"></script> 
@@ -10,9 +11,10 @@
 </head>
 <body>
     <div class="topnav">
-    <input id = "lname" type="text" placeholder="last name" onkeydown="handle(event)" >
-    <input id = "fname" type="text" placeholder="first name" onkeydown="handle(event)" >
-    </div>
+    <input id = "lname" type="text" placeholder="last name" onkeypress="lastname(event)" >
+    <input id = "fname" type="text" placeholder="first name" onkeyup="filterFunction()" onkeypress="firstname(event)">
+    <div class="list" id = 'fnames'><ul id = firstnames style="list-style-type:none;"></ul></div>
+  
   <div class="hall">
     <p>Hall</p>
     <a id="hallnumber"></a>
